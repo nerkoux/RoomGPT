@@ -45,7 +45,7 @@ export default async function handler(
     }
   }
 
-  const { imageUrl, theme, room } = req.body;
+  const { imageUrl, theme, room, otherroom } = req.body;
   // POST request to Replicate to start the image restoration generation process
   let startResponse = await fetch("https://api.replicate.com/v1/predictions", {
     method: "POST",
@@ -62,7 +62,7 @@ export default async function handler(
           room === "Gaming Room"
             ? "a room for gaming with gaming computers, gaming consoles, and gaming chairs"
             : `a ${theme.toLowerCase()} ${room.toLowerCase()}`,
-        room === "Kitchen"
+        otherroom === "Kitchen"
             ? "a kitchen with unique utensils and all kitchen setup modern interior"
             : `a ${theme.toLowerCase()} ${room.toLowerCase()}`,
         a_prompt:
