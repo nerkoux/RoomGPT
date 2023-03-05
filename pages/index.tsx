@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
         <a
-          href="https://github.com/Nutlope/roomGPT"
+          href="https://github.com/nerkoux/roomgpt"
           target="_blank"
           rel="noreferrer"
           className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out hover:text-gray-300"
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
               <div>
                 <h3 className="mb-1 font-medium text-lg">Original Room</h3>
                 <Image
-                  alt="Original photo of a room with roomGPT.io"
+                  alt="Original photo of a room with roomGPT.akshatmehta.com"
                   src="/original-pic.jpg"
                   className="w-full object-cover h-96 rounded-2xl"
                   width={400}
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
               <div className="sm:mt-0 mt-8">
                 <h3 className="mb-1 font-medium text-lg">Generated Room</h3>
                 <Image
-                  alt="Generated photo of a room with roomGPT.io"
+                  alt="Generated photo of a room with roomGPT.akshatmehta.com"
                   width={400}
                   height={400}
                   src="/generated-pic-2.jpg"
