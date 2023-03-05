@@ -30,7 +30,7 @@ const Home: NextPage = () => {
             <SquigglyLines />
             <span className="relative">using AI</span>
           </span>{" "}
-          for everyone.
+          for everyone with ❤ by Akshat Mehta.
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
           Take a picture of your room and see how your room looks in different
