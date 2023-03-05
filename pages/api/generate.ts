@@ -63,7 +63,7 @@ export default async function handler(
             ? "a room for gaming with gaming computers, gaming consoles, and gaming chairs"
             : `a ${theme.toLowerCase()} ${room.toLowerCase()}`,
         a_prompt:
-          "best quality, extremely detailed, photo from Pinterest, interior, kitchen interior, cinematic photo, ultra-detailed, ultra-realistic, award-winning",
+          "best quality, extremely detailed, photo from Pinterest, interior, kitchen interior, Guest room interior, Guest room Essential Items, Laundry room interior, Laundry room essential items, cinematic photo, ultra-detailed, ultra-realistic, award-winning",
         n_prompt:
           "longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality",
       },
