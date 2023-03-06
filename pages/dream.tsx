@@ -121,7 +121,7 @@ const Home: NextPage = () => {
         </h1>
         <p className="text-slate-500">
           {/* Obtained this number from Vercel: based on how many serverless invocations happened. */}
-          <CountUp start={50000} end={141531} duration={1} separator="," />{" "}
+          <CountUp start={0} end={200} duration={5} separator="," />{" "}
           rooms generated so far.
         </p>
         <ResizablePanel>
