@@ -120,9 +120,9 @@ const Home: NextPage = () => {
           Generate your <span className="text-blue-600">dream</span> room
         </h1>
         <p className="text-slate-500">
-          {/* Obtained this number from Vercel: based on how many serverless invocations happened. */}
-          <CountUp start={0} end={591} duration={5} separator="," />{" "}
-          rooms generated so far.
+
+          <CountUp start={"Zero"} end={"Five Hundred and Ninety One"} duration={15} separator="," />{" "}
+          Rooms generated so far with this weblink.
         </p>
         <ResizablePanel>
           <AnimatePresence mode="wait">
