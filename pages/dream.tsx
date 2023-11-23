@@ -121,7 +121,7 @@ const Home: NextPage = () => {
         </h1>
         <p className="text-slate-500">
 
-          <CountUp start={"Zero"} end={"Five Hundred and Ninety One"} duration={15} separator="," />{" "}
+          <CountUp start={-1} end={591} duration={15} separator="," />{" "}
           Rooms generated so far with this weblink.
         </p>
         <ResizablePanel>
